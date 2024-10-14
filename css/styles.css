@@ -39,10 +39,63 @@ body {
     cursor: pointer; 
 }
 
+.navbar .menu a:hover {
+    color: white;
+}
+
 .navbar .menu-bar{
     display: none;
 }
 
 .navbar .shopping {
     grid-column: 8 / 9;
+}
+
+/* main */
+
+.main {
+    height: 80vh;
+    background-image:linear-gradient(rgba(16, 16, 16, .7), rgba(16, 16, 16, .9)), url(../img/Flou.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.main .info-content {
+    grid-column: 8 / 11;
+    grid-row: 2 / 6;
+    color: white;
+}
+
+.main h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.main h1{
+    font-size: 5em;
+    color: #EDCB54;
+}
+
+.main p{
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}    
+
+.main .btn {
+    font-size: 1em;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #EDCB54;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.main .btn:hover {
+    background-color: #EDCB54;
+    color: #181818;
 }

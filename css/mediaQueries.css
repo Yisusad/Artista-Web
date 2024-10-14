@@ -30,4 +30,28 @@
     .navbar .menu-toggle {
         transform: translateX(70%);
     }
+
+    /* main */
+
+    .main {
+        height: 50vh;
+        background-image:linear-gradient(rgba(16, 16, 16, .7), rgba(16, 16, 16, .9)), url(../img/Flou.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .main .info-content {
+        grid-column: 2 / 10;
+        grid-row: 5 / 8;
+    }
+
+
+    .main h1 {
+        font-size: 3.5em;
+    }
 }
