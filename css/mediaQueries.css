@@ -54,4 +54,15 @@
     .main h1 {
         font-size: 3.5em;
     }
+
+    /* main */
+
+    .footer .follow {
+        display: none;
+    }
+
+    .footer .redes {
+        text-align: center;
+        
+    }
 }

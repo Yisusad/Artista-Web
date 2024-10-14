@@ -54,7 +54,7 @@ body {
 /* main */
 
 .main {
-    height: 80vh;
+    height: 82vh;
     background-image:linear-gradient(rgba(16, 16, 16, .7), rgba(16, 16, 16, .9)), url(../img/Flou.jpg);
     background-size: cover;
     max-width: 100%;
@@ -98,4 +98,48 @@ body {
 .main .btn:hover {
     background-color: #EDCB54;
     color: #181818;
+}
+
+/* footer */
+
+.footer {
+    display: grid;
+    height: 80px;
+    align-items: center;
+    background-color: #181818;
+    color: white;
+    grid-template-areas: "listen-online follow redes";
+}
+
+.footer .listen-online {
+    grid-template-areas: listen-online;
+    display: flex;
+    justify-content: center;
+    background-color: #EDCB54;
+    padding: 26px;
+    color: #181818;
+}
+
+.footer .listen-online .fas {
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.footer .follow {
+    grid-template-areas: follow;
+    text-align: center;
+}
+
+.footer .redes {
+    grid-template-areas: redes;
+    font-size: 1.3em;
+}
+
+.footer .redes .fa-brands {
+    margin-right: 15px;
+    color: #EDCB54;
+}
+
+.footer .redes .fa-brands:hover {
+    color: white;
 }
